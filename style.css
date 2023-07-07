@@ -1,0 +1,152 @@
+:root {
+    --acc: #2B9DF4;
+}
+
+
+* {
+    font-family: 'Jura', sans-serif;
+    color: white;
+}
+
+.navbar {
+    background-color: black;
+    padding: 20px;
+    border-bottom: white solid 1px;
+    /* oppure */
+    /* height: 20vh; */
+
+}
+
+
+
+
+
+.header {
+    height: 700px;
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), url(media/moon.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.title {
+    font-size: 45px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.micon{
+    margin-top:400px;
+
+}
+
+
+.chevron{
+    color:var(--acc);
+    font-weight: bold;
+    font-size: 30px;
+
+}
+
+.number {
+    font-size: 30px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+h6 {
+    font-size: 20;
+}
+
+.mblue,
+.bor {
+
+    border-bottom: var(--acc) solid 2px;
+}
+
+.m {
+    margin-top: 250px;
+
+}
+
+h4 {
+    color: var(--acc);
+}
+
+.imgMoon {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    left: 20%;
+    bottom: 30%
+}
+
+.icon {
+    color: var(--acc);
+}
+
+h3 {
+    font-size: 25px;
+    font-family: 'Jura', sans-serif;
+    color: white;
+
+}
+
+.margin {
+    margin-bottom: 200px;
+}
+
+
+.bgmissile {
+    background-image: url(media/missile-2027068_1280.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+.mt {
+    margin-top: 300px;
+}
+
+.bgWord {
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.363), rgba(0, 0, 0, 1)), url(media/sunrise-1765027_1920.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.list {
+    list-style: none;
+
+}
+
+
+.hr-foot {
+    width: 30vw;
+    height: 10px;
+    border: none;
+    left: 25%;
+    width: 50vw;
+    height: 5px;
+    background: linear-gradient(to right, black, var(--acc), black);
+  }
+
+  .hr-size{
+    height:15vh;
+  }
+
+
+  .btn-size {
+    width: 100px;
+    height: 50px;
+    border: none;
+    position: relative;
+}
+
+.angle-lato{
+    border-top: 4px solid var(--acc);
+    border-left: 4px solid var(--acc);
+    border-bottom: 4px solid var(--acc);
+    border-right: 4px solid var(--acc);
+    height: 15px;
+    width: 15px;
+}
